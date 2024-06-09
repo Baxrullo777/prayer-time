@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Namoz vaqtlari</title>
+</head>
+
+<body>
+    
+   
+    <section class="header-bg">
+               
+        <div class="l">
+            <h2>Namoz vaqtlari</h2>
+            <span class="loader"></span>
+            <h5>created by baxa.ake </h5>
+        </div>
+         
+        <div class="header">
+            <div class="nav">
+                <h2 class="shine">Namoz vaqtlari</h2>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="box-1">
+                <h2>Hududni tanlang:</h2>
+            </div>
+
+            <div class="box-2">
+                <select id="region">
+
+                    <option disabled selected>Viloyatni tanlang</option>
+
+                </select>
+            </div>
+
+
+        </div>
+
+        <div class="container-2">
+            <div class="bg-card-1">
+                <h2>Mintaqa:
+                    <span id="city"></span>
+                </h2>
+            </div> 
+            <div class="bg-card-2">
+                <h2>
+                    <span class="date">18-sentabr 2022-yil</span>
+                    <span id="hour"></span>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- card start -->
+    <div class="text">
+        <h4>Намозни тўлиқ адо этинг. Албатта, намоз мўминларга вақтида фарз қилингандир (Нисо сураси 103-оят)</h4>
+    </div>
+
+    <section class="section-bg">
+        <div class="container-3">
+            <div class="row">
+
+                <!-- card item -->
+                     
+              
+                <div class="card">
+                    
+                    <img src="./images/tong.svg" alt="tong" class="card-img">
+                    <h2 class="card-title text-warning">Tong</h2>
+                    <h3 class="card-time text-dark">
+                        04:58
+                    </h3>
+                </div>
+
+
+                <div class="card">
+                    
+                    <img src="./images/sunrise.svg" alt="tong" class="card-img">
+                    <h2 class="card-title text-warning">Quyosh</h2>
+                    <h3 class="card-time text-dark">
+                        06:05
+                    </h3>
+                </div>
+
+
+
+                <div class="card">
+                  
+                    <img src="./images/sun.svg" alt="tong" class="card-img">
+                    <h2 class="card-title text-warning">Peshin</h2>
+                    <h3 class="card-time ">
+                        12:38
+                    </h3>
+                </div>
+
+
+                <div class="card">
+                   
+                    <img src="./images/sunsasr.svg" alt="tong" class="card-img">
+                    <h2 class="card-title">Asr</h2>
+                    <h3 class="card-time text-dark">
+                        16:58
+                    </h3>
+                </div>
+
+
+
+                <div class="card">
+                  
+                    <img src="./images/shom.svg" alt="tong" class="card-img">
+                    <h2 class="card-title">Shom</h2>
+                    <h3 class="card-time text-dark">
+                        17:48
+                    </h3>
+                </div>
+
+
+                <div class="card">
+            
+                    <img src="./images/moon.svg" alt="tong" class="card-img">
+                    <h2 class="card-title">Xufton</h2>
+                    <h3 class="card-time">
+                        19:45
+                    </h3>
+                </div>
+
+            </div>
+
+
+            <!-- week -->
+            <div class="row-1">
+                <h4>Bir haftalik namoz vaqtlari</h4>
+                <table>
+                 
+                    <thead>
+                           
+                        <tr>
+                            <th>Mintaqa</th>
+                            <th>sana</th>
+                            <th>kun</th>
+                            <th>Bomdod</th>
+                            <th>Quyosh</th>
+                            <th>Peshin</th>
+                            <th>Asr</th> 
+                            <th>Shom</th>
+                            <th>Hufton</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="week">
+                        <tr>
+                            <td>Navoi</td> <td>2022.09.23</td> <td>Juma</td> <td>04:28</td> <td>06:21</td> <td>12:38</td> <td>16:42</td> <td>18:38</td> <td>19:46</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+  
+
+</body>
+<script src="./region.js"></script>
+<script src="./plugin.js"></script>
+<script src="./script.js"></script>
+
+</html>
